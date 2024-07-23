@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE3767712C4F2A4A00F23528 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3767702C4F2A4900F23528 /* ProfileView.swift */; };
+		CE3767732C4F2C1200F23528 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3767722C4F2C1200F23528 /* Models.swift */; };
+		CE3767752C4F2DEA00F23528 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3767742C4F2DEA00F23528 /* AppView.swift */; };
 		CE474C142C4F1D4C00ADED13 /* Supabase_User_ManagementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE474C132C4F1D4C00ADED13 /* Supabase_User_ManagementApp.swift */; };
-		CE474C162C4F1D4C00ADED13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE474C152C4F1D4C00ADED13 /* ContentView.swift */; };
 		CE474C182C4F1D5200ADED13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE474C172C4F1D5200ADED13 /* Assets.xcassets */; };
 		CE474C1B2C4F1D5200ADED13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE474C1A2C4F1D5200ADED13 /* Preview Assets.xcassets */; };
 		CE474C232C4F20F400ADED13 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = CE474C222C4F20F400ADED13 /* Supabase */; };
@@ -17,9 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE37676F2C4F295900F23528 /* Supabase-User-Management-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Supabase-User-Management-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CE3767702C4F2A4900F23528 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CE3767722C4F2C1200F23528 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		CE3767742C4F2DEA00F23528 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		CE474C102C4F1D4C00ADED13 /* Supabase User Management.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Supabase User Management.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE474C132C4F1D4C00ADED13 /* Supabase_User_ManagementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supabase_User_ManagementApp.swift; sourceTree = "<group>"; };
-		CE474C152C4F1D4C00ADED13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE474C172C4F1D5200ADED13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE474C1A2C4F1D5200ADED13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE474C242C4F217600ADED13 /* Supabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supabase.swift; sourceTree = "<group>"; };
@@ -57,10 +62,13 @@
 		CE474C122C4F1D4C00ADED13 /* Supabase User Management */ = {
 			isa = PBXGroup;
 			children = (
+				CE37676F2C4F295900F23528 /* Supabase-User-Management-Info.plist */,
 				CE474C132C4F1D4C00ADED13 /* Supabase_User_ManagementApp.swift */,
-				CE474C152C4F1D4C00ADED13 /* ContentView.swift */,
+				CE3767742C4F2DEA00F23528 /* AppView.swift */,
 				CE474C242C4F217600ADED13 /* Supabase.swift */,
 				CE474C262C4F237100ADED13 /* AuthView.swift */,
+				CE3767702C4F2A4900F23528 /* ProfileView.swift */,
+				CE3767722C4F2C1200F23528 /* Models.swift */,
 				CE474C172C4F1D5200ADED13 /* Assets.xcassets */,
 				CE474C192C4F1D5200ADED13 /* Preview Content */,
 			);
@@ -151,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE474C162C4F1D4C00ADED13 /* ContentView.swift in Sources */,
 				CE474C252C4F217600ADED13 /* Supabase.swift in Sources */,
+				CE3767712C4F2A4A00F23528 /* ProfileView.swift in Sources */,
+				CE3767752C4F2DEA00F23528 /* AppView.swift in Sources */,
+				CE3767732C4F2C1200F23528 /* Models.swift in Sources */,
 				CE474C272C4F237100ADED13 /* AuthView.swift in Sources */,
 				CE474C142C4F1D4C00ADED13 /* Supabase_User_ManagementApp.swift in Sources */,
 			);
@@ -291,6 +301,7 @@
 				DEVELOPMENT_TEAM = F2DAZJL548;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Supabase-User-Management-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -320,6 +331,7 @@
 				DEVELOPMENT_TEAM = F2DAZJL548;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Supabase-User-Management-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
